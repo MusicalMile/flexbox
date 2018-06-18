@@ -1,0 +1,125 @@
+/* CSS */
+body {
+  background-color: #2C2F33;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  margin: 0%;
+}
+
+h3 {
+  text-align: center;
+  padding: 6px;
+}
+
+p {
+  text-align: left;
+  padding: 15px;
+  background-color: #23272A;
+  border-left: 10px solid #212326;
+  border-right: 10px solid #23272A;
+  border-radius: 5px;
+  width: 100%-padding;
+}
+
+img {
+  padding: 6px;
+  background: #23272A;
+  width: 100%;
+  border-radius: 3px;
+}
+
+li {
+  -webkit-transition: all 200ms ease-out .1s;
+  -moz-transition: all 200ms ease-out .1s;
+  -o-transition: all 200ms ease-out .1s;
+  transition: all 200ms ease-out .1s;
+  text-align: left;
+  padding: 15px;
+  background-color: #23272A;
+  border-left: 10px solid #212326;
+  border-right: 10px solid #23272A;
+  border-radius: 5px;
+  width: 100%-padding;
+  margin-top: 15px;
+  margin-left: 75%;
+  margin-right: -90%
+}
+
+li:hover {
+  background: #2f3438;
+  border-left: 10px solid #23272A;
+  border-right: 10px solid #2f3438;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  width: 50%;
+}
+
+/* ID's & Classes */
+.body {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  display: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px;
+  background-color: #7289DA;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  border-top: 10px solid #7f97e8;
+  border-bottom: 10px solid #6b79ce;
+  margin: 0%;
+  background: url(../images/HomeTile.png) center center;
+}
+
+#buttons {
+  -webkit-transition: all 200ms ease-out .1s;
+  -moz-transition: all 200ms ease-out .1s;
+  -o-transition: all 200ms ease-out .1s;
+  transition: all 200ms ease-out .1s;
+  padding: 15px 110px 15px 110px;
+  text-decoration: none;
+}
+
+#buttons:hover {
+  background-color: #212326;
+  cursor: pointer;
+}
+
+#package {
+  text-decoration: none;
+  border-top: 8px solid #2f3438;
+  border-bottom: 8px solid #212326;
+  background-color: #23272A;
+  display: flex;
+  display: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Link */
+a:link {
+  color: white;
+}
+
+a:visited {
+color: white;
+}
+
+a:hover {
+color: #7289DA;
+}
+
+a:active {
+  color: #40497a;
+}
